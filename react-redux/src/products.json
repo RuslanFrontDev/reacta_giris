@@ -1,0 +1,30 @@
+{
+   "clothing": {
+      "id":1,
+      "productName": "qisliq",
+      "price": 200,
+      "description": "bu mal cox teriflenir. mutleq alin",
+      "imageUrl":"https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg"
+   },
+   "gold": {
+      "id":2,
+      "productName": "briliant",
+      "price": 1200,
+      "description": "bu mal cox teriflenir. mutleq alin",
+      "imageUrl":"https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg"
+   },
+   "summurclothing": {
+      "id":3,
+      "productName": "t-shirt",
+      "price": 400,
+      "description": "bu mal cox teriflenir. mutleq alin",
+      "imageUrl":"https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg"
+   },
+   "electronic": {
+      "id":4,
+      "productName": "televizor",
+      "price": 50,
+      "description": "bu mal cox teriflenir. mutleq alin",
+      "imageUrl":"https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg"
+   }
+}

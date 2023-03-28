@@ -1,0 +1,22 @@
+[
+   {
+      "id":1,
+      "title":"Saqqiz",
+      "price":20
+   },
+   {
+      "id":2,
+      "title":"Kola",
+      "price":2.20
+   },
+   {
+      "id":3,
+      "title":"Masin",
+      "price":60000
+   },
+   {
+      "id":4,
+      "title":"Ayaqqabi",
+      "price":45
+   }
+]

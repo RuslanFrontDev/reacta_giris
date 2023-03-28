@@ -1,0 +1,45 @@
+table,
+td,
+th {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  background-color: yellow;
+}
+
+.table {
+  margin-top: 40px;
+  .container {
+    table {
+      thead {
+        tr {
+          th {
+            background-color: burlywood;
+            color: #fff;
+            &:hover {
+              background-color: red;
+            }
+          }
+        }
+      }
+      tbody {
+        text-align: center;
+        tr {
+          td {
+            color: rgb(68, 18, 144);
+            a{
+              svg{
+                color: rgb(10, 10, 228);
+              }
+            }
+          }
+          &:hover {
+            background-color: red;
+          }
+        }
+      }
+    }
+  }
+}

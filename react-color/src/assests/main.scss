@@ -1,0 +1,20 @@
+*{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   box-sizing: border-box;
+   border: none;
+}
+
+html,body{
+   height: 100%;
+}
+#root{
+   height: 100%;
+   display: flex;
+}
+@import './component/sidebar.scss';
+@import './component/content.scss';
+@import './component/brands.scss';
+@import './component/copied.scss';
+@import './component/download.scss';

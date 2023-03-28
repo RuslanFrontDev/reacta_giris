@@ -1,0 +1,102 @@
+.bazar {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.card-app {
+  .card-row {
+    width: 400px;
+  }
+  .degrees {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: burlywood;
+    padding: 10px;
+    border-radius: 10px;
+    .rate {
+      font-size: 20px;
+      color: blue;
+      padding: 5px;
+      border-radius: 8px;
+      background-color: coral;
+      &:hover {
+        background-color: aliceblue;
+        color: coral;
+      }
+    }
+    .price {
+      font-size: 25px;
+      color: red;
+    }
+    .count {
+      font-size: 20px;
+      color: blue;
+      padding: 5px;
+      border-radius: 8px;
+      background-color: coral;
+      &:hover {
+        background-color: aliceblue;
+        color: coral;
+      }
+    }
+  }
+  .title {
+    background-color: aqua;
+    text-align: center;
+    h1 {
+      color: white;
+    }
+  }
+  .images {
+    width: 400px;
+    height: 300px;
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    img {
+      width: inherit;
+      height: inherit;
+      transition: 1s transform;
+      &:hover{
+        transform: scale(0.9, 1);
+      }
+    }
+  }
+  .description {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+    background-color: rgba($color: #25ae55, $alpha: 1);
+    h4 {
+      color: white;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    a{
+      display: inline-block;
+      width: 100px;
+      background-color: brown;
+      text-align: center;
+      svg{
+         color: blue;
+         &:focus{
+            color: blue;
+         }
+         &:hover{
+            color: blue;
+         }
+        
+      }
+      &:hover{
+         background-color: yellow;
+         
+      }
+      
+    }
+  }
+}

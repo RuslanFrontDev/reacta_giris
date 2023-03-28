@@ -1,0 +1,16 @@
+*{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   text-decoration: none;
+   box-sizing: border-box;
+}
+.container{
+   max-width: 1140px;
+   margin: 0 auto;
+}
+@import './component//header.scss';
+@import './page/home.scss';
+@import './page/details.scss';
+@import './page/comments.scss';
+@import './page/table.scss'

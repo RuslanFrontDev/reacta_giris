@@ -1,0 +1,16 @@
+table, th, td {
+   border: 1px solid;
+ }
+ table{
+   border-collapse: collapse;
+ }
+ td.user{
+   background-color: red;
+ }
+ th.n{
+   background-color: aqua;
+ }
+ td{
+   background-color: burlywood;
+   padding: 15px;
+ }

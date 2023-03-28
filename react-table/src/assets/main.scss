@@ -1,0 +1,13 @@
+*{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   border: none;
+}
+/*link*/
+a{
+   text-decoration: none;
+}
+@import './style/component/header.scss';
+@import './style/component/input.scss';
+@import './style/component/button.scss'

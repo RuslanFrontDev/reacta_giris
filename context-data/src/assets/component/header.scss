@@ -1,0 +1,44 @@
+.header {
+  background-color: aqua;
+  .links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .link {
+    font-size: 20px;
+    background-image: linear-gradient(to left, rgb(10, 188, 55), #383381 50%);
+    color: white;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    position: relative;
+
+    .dropdown {
+      position: absolute;
+      width: 100%;
+      background-color: red;
+      top: 42px;
+      left: 0;
+      display: none;
+      li {
+        color: #383381;
+        .pics{
+         background-color: yellow;
+         margin:5px;
+         font-size: 20px;
+         padding:0 5px 2px 5px;
+        }
+      }
+   
+    }
+  &:hover>.dropdown{
+   display: block;
+  }
+  }
+}
+
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}

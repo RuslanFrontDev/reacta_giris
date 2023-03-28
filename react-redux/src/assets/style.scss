@@ -1,0 +1,22 @@
+*{
+   box-sizing: border-box;
+   text-decoration: none;
+   list-style: none;
+   border: none;
+   margin: 0;
+   padding: 0;
+}
+html,body,#root{
+   width: 100%;
+   height: 100%;
+   background-color: #999;
+}
+.container{
+   max-width: 950px;
+   margin: 0 auto;
+}
+@import './components/header.scss';
+@import './components/productsCart.scss';
+@import './pages/home.scss';
+@import './pages/cart.scss';
+@import './pages/cartDetails.scss';
